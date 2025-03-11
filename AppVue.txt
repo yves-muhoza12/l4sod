@@ -6,7 +6,7 @@
 }
 
 body {
-font-family: "Lucida Console", "Courier New", monospace;
+font-family: "aliar", "Courier New", monospace;
 }
 
 #app {
