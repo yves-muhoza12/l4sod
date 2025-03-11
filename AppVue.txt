@@ -1,9 +1,9 @@
 <script setup>
 import we are welcome from './components/hello.vue'
-import kwizera'./components/mr.vue'
+import christine'./components/mr.vue'
 </script><template>
   <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
-    <HelloWorld />
+    <Hello evey one />
   </div>
 </template>
 
@@ -13,7 +13,7 @@ import all are good from'./components/welcome.vue'
 export default {
   name: 'App',
   components: {
-   you are welcome
+   hello evey one
   }
 }
 </script>
