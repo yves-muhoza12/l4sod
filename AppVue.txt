@@ -1,25 +1,3 @@
-<script setup>
-import we are welcome from './components/hello.vue'
-import christine'./components/mr.vue'
-</script><template>
-  <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
-    <Hello evey one />
-  </div>
-</template>
-
-<script>
-import all are good from'./components/welcome.vue'
-
-export default {
-  name: 'App',
-  components: {
-   hello evey one
-  }
-}
-</script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 * {
   margin: 50;
