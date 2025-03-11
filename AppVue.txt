@@ -1,1 +1,172 @@
+<html>
+<body>
+</header>
+  <header class="intro">
+    <div class="intro-content">
+        <h1 class="intro-title">Welcome to iF iMAGE Website!</h1>
+        <p class="intro-description">Your vision, our expertise, creating moments.</p>
+        <a href="#services" class="cta-button">Explore Services</a>
+    </div>
+</header>
 
+<section id="services">
+
+</section>
+<style>
+ 
+
+/* Hero/Intro Section */
+.intro {
+    position: relative;
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.intro::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.651));
+    pointer-events: none;
+    z-index: 1;
+}
+
+.intro > * {
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Content inside the intro */
+.intro-content {
+    opacity: 100;
+    transform: translateY(30px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+/* Title Animation */
+.intro-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: slideInLeft 1.5s ease-out forwards;
+}
+
+/* Description Text Animation */
+.intro-description {
+    font-size: 24px;
+    margin-bottom: 30px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards 1s; /* Delay after title */
+    
+}
+
+/* Call-to-action Button Animation */
+.cta-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #3498db;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Section below the intro (fade-in effect) */
+#services {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+    background-image: url(if.png);
+}
+
+#services h2 {
+    font-size: 32px;
+    color: #333;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards 1.5s; /* Delay for smooth appearance */
+}
+
+/* Keyframe animations */
+
+/* Fade-in effect for title and elements */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Fade-in + slide-up effect */
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Slide-in from the left for title */
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+
+    </style>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container d-block">
+          <div class="main_nav_menu">
+            <div class="fk_width">
+              <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="" href="about.html">About </a>
+                  <a class="" href="gallery.html">Gallery </a>
+                  <a class="" href="blog.html">Blog </a>
+                  <a class="" href="testimonial.html">Testimonial </a>
+                </div>
+              </div>
+            </div>
+            <a class="navbar-brand" href="index.html">
+              <span>
+                iF iMAGE
+              </span>
+            </a>
+            <div class="user_option">
+              <a href="#">
+                
+              </a>
+              <form class="form-inline ">
+                
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+</body>
+</html>
