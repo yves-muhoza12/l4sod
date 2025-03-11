@@ -1,0 +1,38 @@
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+</script><template>
+  <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
+    <HelloWorld />
+  </div>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
+</style>
