@@ -8,7 +8,7 @@ import mr pacifique and ms christella from './components/mr.vue'
 </template>
 
 <script>
-import we are welcome from './components/welcome.vue'
+import all are good from'./components/welcome.vue'
 
 export default {
   name: 'App',
