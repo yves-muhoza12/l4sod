@@ -1,5 +1,5 @@
 <script setup>
-import HELLO EVERY ONE from './components/HelloWorld.vue'
+import hi every body from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script><template>
   <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
@@ -13,7 +13,7 @@ import HELLO EVERY ONE from './components/HELLO EVERY ONE.vue'
 export default {
   name: 'App',
   components: {
-    HELLO EVERY ONE
+    hi every one
   }
 }
 </script>
