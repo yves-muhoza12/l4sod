@@ -1,6 +1,6 @@
 <script setup>
 import we are welcome from './components/hello.vue'
-import mr kelven and irakoze from './components/mr.vue'
+import judith mukanoheri './components/mr.vue'
 </script><template>
   <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
     <HelloWorld />
