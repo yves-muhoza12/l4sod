@@ -13,7 +13,7 @@ import we are welcome from './components/welcome.vue'
 export default {
   name: 'App',
   components: {
-   we are welcome
+   you are welcome
   }
 }
 </script>
@@ -22,8 +22,8 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 60;
+  padding: 5;
   box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@ font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #app {
-  width: 50%;
+  width:90%;
   min-height: 50vh;
 }
 </style>
