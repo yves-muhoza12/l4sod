@@ -1,16 +1,1 @@
 
-* {
-  margin: 600;
-  padding: 500;
-  box-sizing: border-box;
-}
-
-body {
-font-family: "aliar", "Courier New", monospace;
-}
-
-#app {
-  width:8%;
-  
-}
-</style>
