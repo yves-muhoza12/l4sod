@@ -1,6 +1,6 @@
 <script setup>
 import hi every body from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Theevery one from './components/TheWelcome.vue'
 </script><template>
   <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
     <HelloWorld />
@@ -32,7 +32,7 @@ body {
 }
 
 #app {
-  width: 100%;
-  min-height: 100vh;
+  width: 80%;
+  min-height: 80vh;
 }
 </style>
