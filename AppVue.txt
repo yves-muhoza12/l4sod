@@ -7,7 +7,12 @@ import kwizera'./components/mr.vue'
   </div>
 </template>
 
+
 <script>
+vara=3;
+varb=8;
+varc=a+b;
+document.write(c);
 import all are good from'./components/welcome.vue'
 
 export default {
