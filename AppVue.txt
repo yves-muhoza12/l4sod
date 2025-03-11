@@ -1,6 +1,6 @@
 
 * {
-  margin: 400;
+  margin: 600;
   padding: 500;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #app {
-  width:88%;
+  width:8%;
   min-height: 68px;
 }
 </style>
