@@ -3,7 +3,7 @@
 </header>
   <header class="intro">
     <div class="intro-content">
-        <h1 class="intro-title">  welcom to  no jock Website!</h1>
+        <h1 class="intro-title">  welcom ib Bienfait Website!</h1>
         <p class="intro-description">Your vision, our expertise, creating moments.</p>
         <a href="#services" class="cta-button">Explore Services</a>
     </div>
