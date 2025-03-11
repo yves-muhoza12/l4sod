@@ -1,6 +1,6 @@
 <script setup>
-import hi every body from './components/HelloWorld.vue'
-import Theevery one from './components/TheWelcome.vue'
+import we are welcome from './components/welcome.vue'
+import mr pacifique and ms christella from './components/mr.vue'
 </script><template>
   <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
     <HelloWorld />
@@ -8,12 +8,12 @@ import Theevery one from './components/TheWelcome.vue'
 </template>
 
 <script>
-import HELLO EVERY ONE from './components/HELLO EVERY ONE.vue'
+import we are welcome from './components/welcome.vue'
 
 export default {
   name: 'App',
   components: {
-    hi every one
+   we are welcome
   }
 }
 </script>
@@ -28,11 +28,11 @@ export default {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #app {
-  width: 80%;
-  min-height: 80vh;
+  width: 100%;
+  min-height: 100vh;
 }
 </style>
