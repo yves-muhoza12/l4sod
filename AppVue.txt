@@ -1,6 +1,6 @@
 <script setup>
 import we are welcome from './components/welcome.vue'
-import mr pacifique and ms christella from './components/mr.vue'
+import rosine from './components/mr.vue'
 </script><template>
   <div id="app" class="min-h-screen bg-gray-800 flex flex-col items-center justify-center">
     <HelloWorld />
@@ -13,7 +13,7 @@ import all are good from'./components/welcome.vue'
 export default {
   name: 'App',
   components: {
-   you are welcome
+   you are success
   }
 }
 </script>
