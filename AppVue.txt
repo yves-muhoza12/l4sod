@@ -92,7 +92,7 @@
 }
 
 /* Section below the intro (fade-in effect) */
-#services {
+.services {
     padding: 50px;
     text-align: center;
     background-color: #fff;
