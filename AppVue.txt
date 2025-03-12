@@ -21,12 +21,12 @@
     background-image: url('1.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
-    height: 100vh;
+    color:green;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:right;
     overflow: hidden;
 }
 
