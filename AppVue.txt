@@ -22,7 +22,7 @@
     background-size: cover;
     background-position: center;
     color:green;
-    height: 200vh;
+    height:900vh;
     display: flex;
     justify-content: center;
     align-items: center;
